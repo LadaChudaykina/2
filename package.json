@@ -1,0 +1,26 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "description": ">node -v",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LadaChudaykina/2.git"
+  },
+  "author": "Lada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LadaChudaykina/2/issues"
+  },
+  "homepage": "https://github.com/LadaChudaykina/2#readme"
+}
