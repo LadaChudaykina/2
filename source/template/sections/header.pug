@@ -3,18 +3,32 @@ header.header
         .container
             .head
                 a.logo1
+
                     span.logo1__text My Account  |  Wishlist  |  My Cart  |  Checkout  |  Login
-            .logo
-                .logo: img.logo__picture(src="images/MarketSupply.png" alt="picture" width="152" height="24")
-                img.poisk__picture(src="images/poisk.png" alt="picture" width="585" height="37" )
-                img.po__picture(src="images/krugkorsina.png" alt="picture" width="37" height="37")
-                span.logo__text Total
-                span.log__text $600
-    .header__nav
+
+    .header__logo
         .container
-            .men
-                img.logo__picture(src="images/znakmenu.png" alt="picture" width="16" height="13")
-                span.men__text CLOTHING ELECTRONICS HOT HEALTH&BEAUTY WATCHES JEWELLERY SHOES
+            img.logo__picture.header__logotip(src="images/MarketSupply.png" alt="picture" width="152" height="24")
+            img.poisk__picture.header__pois(src="images/poisk.png" alt="picture" width="585" height="37" )
+            img.po__picture(src="images/krugkorsina.png" alt="picture" width="37" height="37")
+            span.logo__text Total:
+            span.log__text $600
+
+    .header__men
+        .container
+            i.fa.fa-list(aria-hidden="true")
+            span.men__text CATEGORIES
+
+            .header__text
+                span.men2__text CLOTHING ELECTRONICS.HOT HEALTH&BEAUTY JEWELLERY SHOES
+
+
+
+
+
+
+
+
 
 
 

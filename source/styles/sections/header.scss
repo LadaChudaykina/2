@@ -2,33 +2,59 @@
   &__top {
     background-color: #222222;
 
-  }
-  .logo{
-    display: flex;
-    justify-content: space-between;
-    color: #ffffff;
-    padding: 10px;
-
 
   }
+
   .head {
 
     text-align: right;
     color: #ffffff;
     padding: 10px;
-  }
-
-  &__nav{
-
-    background-color: #f00e34;
 
   }
-  .men {
 
-    color: #ffffff;
+
+  &__logo {
     display: flex;
     justify-content: space-between;
+    background-color: #222222;
+    color: #ffffff;
     padding: 10px;
+
+
+
+  }
+
+  &__logotip {
+
+    margin-right: 160px;
+  }
+
+  &__pois{
+
+    margin-right: 15px;
+  }
+
+
+
+
+
+  &__men {
+
+
+    background-color: #f00e34;
+    color: #ffffff;
+    padding: 10px;
+
+
+
+  }
+
+  &__text {
+
+    text-align: right;
+    color: #ffffff;
+    word-spacing: 50px;
 
 
   }
