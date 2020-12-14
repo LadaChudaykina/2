@@ -27,12 +27,12 @@
 
   &__logotip {
 
-    margin-right: 160px;
+    margin-right: 100px;
   }
 
   &__pois{
 
-    margin-right: 15px;
+    margin-right: 5px;
   }
 
 
@@ -45,6 +45,7 @@
     background-color: #f00e34;
     color: #ffffff;
     padding: 10px;
+    font-family: $ff-main;
 
 
 
@@ -58,5 +59,19 @@
 
 
   }
+  .icon-excel {
+    background-image: url("../images/korzina.png");
+    border: 0;
+    color: #222222 ;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1px;
+    margin: 1px 1px;
+    border-radius: 50%;
+  }
+
+
 
 }
