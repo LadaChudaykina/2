@@ -1,0 +1,418 @@
+
+main.wrapper.main-wrapper
+    aside.main__column.main__column--short
+        ul.categories-navigation.categories-navigation--vertical
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Clothing
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Electronics
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Shoes
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Watches
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Jewellery
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Health and Beauty
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Kids and Babies
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Sports
+            li.categories-navigation__item.categories-navigation__item--vertical
+                a.categories-navigation__link.categories-navigation__link--vertical(href='#') Home and Garden
+        section.goods
+            header.goods__header
+                h2.goods__title.goods__title--short
+                    | Hot deals
+                span.goods__controls
+                    button.goods__button.goods__button--prev(type='button')
+                        span.visually-hidden
+                            | Previous slide
+                    button.goods__button.goods__button--next(type='button' disabled='')
+                        span.visually-hidden
+                            | Next slide
+            a.goods__item.item.item--broader(href='#')
+                img.item__image(src='images/sidebar-image-1.jpg' alt='sneakers')
+                p.item__description
+                    | Lorem ipsum dolor
+                p.item__price
+                    span.item__old-price
+                        | $100.00
+                    span.item__current-price
+                        | $90.00
+                ul.item__rating.rating
+                    li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                    li.rating__item.rating__item--empty
+        section.goods
+            header.goods__header
+                h2.goods__title.goods__title--short
+                    | Special deal
+                span.goods__controls
+                    button.goods__button.goods__button--prev(type='button')
+                        span.visually-hidden
+                            | Previous slide
+                    button.goods__button.goods__button--next(type='button' disabled='')
+                        span.visually-hidden
+                            | Next slide
+            a.goods__item.item.item--broader(href='#')
+                img.item__image(src='images/sidebar-image-2.jpg' alt='sneakers')
+                p.item__description
+                    | Lorem ipsum dolor
+                p.item__price
+                    span.item__old-price
+                        | $100.00
+                    span.item__current-price
+                        | $90.00
+                ul.item__rating.rating
+                    li.rating__item
+                    li.rating__item
+                    li.rating__item
+                    li.rating__item
+
+                    li.rating__item.rating__item--empty
+        section.subscribe
+            h2.subscribe__title
+                | Newsletters
+            p.subscribe__description
+                | Sign Up for Our Newsletter!
+            form.subscribe__form(action='/' method='post' name='subscribe')
+                label.visually-hidden(for='subscribe-email')
+                    | Your email
+                input#subscribe-email.subscribe__email(type='email' name='email' )
+                button.subscribe__button.button(type='submit')
+                    | Subscribe
+        a.advertising(href='#')
+            img.advertising__image(src='images/sidebar-image--big-min.jpg' alt='dove man care')
+    .main__column
+        section.discounts
+            h2.discounts__title
+                span.discounts__subtitle
+                    | Collection 2017
+                | save 50% for
+            p.discounts__description
+                | First purchase
+            a.discounts__link(href='#') Shop now
+            ul.discounts__list
+                li.discounts__list-item
+                    h3.discount__list-title
+                        | Money back
+                    |30 Days Money Back Guarantee
+                li.discounts__list-item
+                    h3.discount__list-title
+                        | Free shipping
+                    | Shipping on orders over $99
+                li.discounts__list-item
+                    h3.discount__list-title
+                        | Special sale
+                    | Extra $5 off on all items
+        section.goods
+            header.goods__header
+                h2.goods__title
+                    | New products
+                ul.goods__navigation
+                    li.goods__navigation-item
+                        a.goods__navigation-link(href='#') All
+                    li.goods__navigation-item
+                        a.goods__navigation-link(href='#') Clothing
+                    li.goods__navigation-item
+                        a.goods__navigation-link(href='#') Electronics
+                    li.goods__navigation-item
+                        a.goods__navigation-link(href='#') Shoes
+                span.goods__controls
+                    button.goods__button.goods__button--prev(type='button')
+                        span.visually-hidden
+                            | Previous slide
+                    button.goods__button.goods__button--next(type='button' disabled='')
+                        span.visually-hidden
+                            | Next slide
+            .goods__container
+                a.goods__item.item(href='#')
+                    img.item__image(src='images/item-image-1-min.jpg' alt='lorem')
+                    p.item__description
+                        | Lorem ipsum dolor
+                    p.item__price
+                        span.item__old-price
+                            | $100.00
+                        span.item__current-price
+                            | $90.00
+                    ul.item__rating.rating
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+
+                        li.rating__item.rating__item--empty
+                a.goods__item.item(href='#')
+                    img.item__image(src='images/item-image-2-min.jpg' alt='macbook')
+                    p.item__description
+                        | Lorem ipsum dolor
+                    p.item__price
+                        span.item__old-price
+                            | $100.00
+                        span.item__current-price
+                            | $90.00
+                    ul.item__rating.rating
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+
+                        li.rating__item.rating__item--empty
+                a.goods__item.item(href='#')
+                    img.item__image(src='images/item-image-3-min.jpg' alt='handbag')
+                    p.item__description
+                        | Lorem ipsum dolor
+                    p.item__price
+                        span.item__old-price
+                            | $100.00
+                        span.item__current-price
+                            | $90.00
+                    ul.item__rating.rating
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+
+                        li.rating__item.rating__item--empty
+                a.goods__item.item(href='#')
+                    img.item__image(src='images/item-image-4-min.jpg' alt='tv')
+                    p.item__description
+                        | Lorem ipsum dolor
+                    p.item__price
+                        span.item__old-price
+                            | $100.00
+                        span.item__current-price
+                            | $90.00
+                    ul.item__rating.rating
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+
+                        li.rating__item.rating__item--empty
+        section.new-collection
+            article.new-collection__item
+                img.new-collection__image(src='images/item-image-1--middle-min.jpg' alt='sneakers')
+                .new-collection__column
+                    span.new-collection__date
+                        | 2018
+                    h2.new-collection__title
+                        | Fashion sale
+                    a.new-collection__link(href='#')
+                        | buy now
+                    p.new-collection__description
+                        | * on selected items only
+            article.new-collection__item
+                img.new-collection__image(src='images/item-image-2--middle-min.jpg' alt='sneakers')
+                .new-collection__column
+                    span.new-collection__date
+                        | 2018
+                    h2.new-collection__title
+                        | Fashion sale
+                    a.new-collection__link(href='#')
+                        | buy now
+                    p.new-collection__description
+                        | * on selected items only
+        section.goods
+            header.goods__header
+                h2.goods__title
+                    | Latest product
+                ul.goods__navigation
+                    li.goods__navigation-item
+                        a.goods__navigation-link(href='#') All
+                    li.goods__navigation-item
+                        a.goods__navigation-link(href='#') Clothing
+                    li.goods__navigation-item
+                        a.goods__navigation-link(href='#') Electronics
+                    li.goods__navigation-item
+                        a.goods__navigation-link(href='#') Shoes
+                span.goods__controls
+                    button.goods__button.goods__button--prev(type='button')
+                        span.visually-hidden
+                            | Previous slide
+                    button.goods__button.goods__button--next(type='button' disabled='')
+                        span.visually-hidden
+                            | Next slide
+            .goods__container
+                a.goods__item.item(href='#')
+                    img.item__image(src='images/item-image-5-min.jpg' alt='camera')
+                    p.item__description
+                        | Lorem ipsum dolor
+                    p.item__price
+                        span.item__old-price
+                            | $100.00
+                        span.item__current-price
+                            | $90.00
+                    ul.item__rating.rating
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+
+                        li.rating__item.rating__item--empty
+                a.goods__item.item(href='#')
+                    img.item__image(src='images/item-image-6-min.jpg' alt='schoolbag')
+                    p.item__description
+                        | Lorem ipsum dolor
+                    p.item__price
+                        span.item__old-price
+                            | $100.00
+                        span.item__current-price
+                            | $90.00
+                    ul.item__rating.rating
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+
+                        li.rating__item.rating__item--empty
+                a.goods__item.item(href='#')
+                    img.item__image(src='images/item-image-7-min.jpg' alt='blouse')
+                    p.item__description
+                        | Lorem ipsum dolor
+                    p.item__price
+                        span.item__old-price
+                            | $100.00
+                        span.item__current-price
+                            | $90.00
+                    ul.item__rating.rating
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+
+                        li.rating__item.rating__item--empty
+                a.goods__item.item(href='#')
+                    img.item__image(src='images/item-image-8-min.jpg' alt='pc mouse')
+                    p.item__description
+                        | Lorem ipsum dolor
+                    p.item__price
+                        span.item__old-price
+                            | $100.00
+                        span.item__current-price
+                            | $90.00
+                    ul.item__rating.rating
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item
+                        li.rating__item.rating__item--empty
+        section.proposition
+            .proposition__column
+                p.proposition__promo
+                    | Beautiful laptop
+                p.proposition__description
+                    | Retina display 18&quot; ready!
+                a.proposition__link.button(href='#') Shop now
+        section.goods
+            header.goods__header
+                h2.goods__title
+                    | Featured products
+                span.goods__controls
+                    button.goods__button.goods__button--prev(type='button')
+                        span.visually-hidden
+                            | Previous slide
+                    button.goods__button.goods__button--next(type='button' disabled='')
+                        span.visually-hidden
+                            | Next slide
+            .goods__container.goods__container--multiline
+                a.goods__item.item.item--compact(href='#')
+                    img.item__image.item__image--small(src='images/item-image-1--small-min.jpg' alt='camera')
+                    .item__container
+                        p.item__description
+                            | Lorem ipsum dolor
+                        p.item__price
+                            span.item__old-price
+                                | $100.00
+                            span.item__current-price
+                                | $90.00
+                        ul.item__rating.rating.rating--align-left
+
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item.rating__item--empty
+                a.goods__item.item.item--compact(href='#')
+                    img.item__image.item__image--small(src='images/item-image-2--small-min.jpg' alt='cooler')
+                    .item__container
+                        p.item__description
+                            | Lorem ipsum dolor
+                        p.item__price
+                            span.item__old-price
+                                | $100.00
+                            span.item__current-price
+                                | $90.00
+                        ul.item__rating.rating.rating--align-left
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item.rating__item--empty
+                a.goods__item.item.item--compact(href='#')
+                    img.item__image.item__image--small(src='images/item-image-3--small-min.jpg' alt='shoes')
+                    .item__container
+                        p.item__description
+                            | Lorem ipsum dolor
+                        p.item__price
+                            span.item__old-price
+                                | $100.00
+                            span.item__current-price
+                                | $90.00
+                        ul.item__rating.rating.rating--align-left
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item.rating__item--empty
+                a.goods__item.item.item--compact.item--not-margin(href='#')
+                    img.item__image.item__image--small(src='images/item-image-4--small-min.jpg' alt='filter')
+                    .item__container
+                        p.item__description
+                            | Lorem ipsum dolor
+                        p.item__price
+                            span.item__old-price
+                                | $100.00
+                            span.item__current-price
+                                | $90.00
+                        ul.item__rating.rating.rating--align-left
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item.rating__item--empty
+                a.goods__item.item.item--compact.item--not-margin(href='#')
+                    img.item__image.item__image--small(src='images/item-image-5--small-min.jpg' alt='mouse')
+                    .item__container
+                        p.item__description
+                            | Lorem ipsum dolor
+                        p.item__price
+                            span.item__old-price
+                                | $100.00
+                            span.item__current-price
+                                | $90.00
+                        ul.item__rating.rating.rating--align-left
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item.rating__item--empty
+                a.goods__item.item.item--compact.item--not-margin(href='#')
+                    img.item__image.item__image--small(src='images/item-image-6--small-min.jpg' alt='pullover')
+                    .item__container
+                        p.item__description
+                            | Lorem ipsum dolor
+                        p.item__price
+                            span.item__old-price
+                                | $100.00
+                            span.item__current-price
+                                | $90.00
+                        ul.item__rating.rating.rating--align-left
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item
+                            li.rating__item.rating__item--empty
